@@ -1,44 +1,79 @@
-# My Basic Game
+# Super Mario & Sonic: Operation Red Shell
 
-A simple text adventure game inspired by Zork I, with added puzzles including a Mario mini-game, troll fight, and more.
+A Zork-style, menu-driven text adventure game featuring a crossover between Mario and Sonic during the Cold War. Bowser has formed an absurd alliance with the Soviets to create the Union of Koopa Socialist Republics (UKSR).
 
 ## How to Run
 
-python zork_game.py
+```bash
+python3 operation_red_shell.py
+```
 
 ## Game Overview
 
-Start in an open field west of a white house. Explore, solve puzzles, find items, and progress through the adventure.
+Play as Mario and Sonic as you battle through Soviet strongholds and warped Mushroom Kingdom zones to stop Bowserovich and the UKSR. The game features:
 
-## Commands
+- **3 Acts** with complete story progression
+- **Menu-driven combat** with multiple attack options
+- **Save/Load system** with 3 save slots
+- **Inventory system** with items and upgrades
+- **Score tracking** and zone liberation counter
+- **ASCII art** for major scenes and bosses
+- **Cold War parody** with meta humor
 
-- look (l): Describe the current location.
-- open mailbox: Open the mailbox in the field.
-- take leaflet: Take the leaflet from the mailbox.
-- read leaflet: Read the leaflet in your inventory.
-- go east/right: Move east.
-- go west/left: Move west.
-- go up: Move up (if possible).
-- go down: Move down (if possible).
-- inventory (i): Show your inventory.
-- unlock door: Unlock the house door with the key.
-- solve riddle: Solve the riddle in the forest.
-- enter pipe: Enter the pipe in the house to start the Mario mini-game.
-- move: Move in the Mario mini-game.
-- jump: Jump in the Mario mini-game.
-- enter pipe: Enter the pipe in the Mario mini-game to win.
-- quit mario: Exit the Mario mini-game.
-- fight: Fight the troll in the cellar.
-- hint: Get hints for puzzles.
-- verbose: Toggle verbose mode for detailed descriptions.
-- dev: Developer shortcut (gives key and solves riddle).
-- quit/exit: Exit the game.
+## Story
+
+**Act I - The Invasion Begins:** Mario's garden is attacked by "Koopa Commandos." Sonic arrives via warp ring to help. Tutorial combat and first upgrade.
+
+**Act II - Operation Red Shell:** Travel between worlds using warps. Encounter absurd propaganda like "1-Up for the Motherland." Mini-boss: General Hammer Brokov.
+
+**Act III - The Kremlin Castle:** Fight through hybrid Soviet-Koopa enemies (e.g., "Shy Guys with Kalashnikovs"). Boss fight with Bowserovich, Bowser wearing a Soviet general's uniform.
+
+## Controls
+
+The game uses numbered menu choices:
+
+- **1-9:** Select numbered options
+- **s:** Show team status
+- **l:** Show current location  
+- **h:** Show help
+
+## Combat System
+
+- **Mario:** Jump Attack, Fireball, Ultimate Fireball
+- **Sonic:** Spin Dash, Chaos Spin Dash
+- **Team:** Super Combo Attack
+- **Items:** Mushrooms, Fire Flowers, Spin Dash Boosters, etc.
+
+## Save System
+
+- **3 save slots** for different playthroughs
+- **Auto-save prompts** after zone liberation
+- **Save preview** shows progress, score, timestamp
+- **Overwrite protection** with confirmation
+
+## Koopa-Russian Language
+
+The game features a hybrid language developed in the UKSR:
+
+- **Rurer:** Means "victory" + "comrade" + "Koopa brother"
+- **Der:** Means "the" or "ultimate"
+- Used in propaganda and battle cries
+
+## Features
+
+- **Full story** with cliffhanger ending
+- **Multiple endings** based on performance
+- **Upgrade system** for both characters
+- **Strategic combat** with enemy weaknesses
+- **Environmental puzzles** and exploration
+- **Retro humor** with 4th wall breaking
 
 ## Tips
 
-- Use hints if stuck.
-- Verbose mode provides more descriptions.
-- The Mario game is an ASCII platformer with a pit to jump over.
-- Find the sword from the Mario game to fight the troll.
+- Fireballs are effective against armored enemies
+- Spin Dash requires booster for maximum damage
+- Team combos can turn the tide of battle
+- Save frequently at zone liberation points
+- Explore different paths for alternate solutions
 
-Enjoy the adventure!
+Enjoy saving the Mushroom Kingdom from Soviet Koopa domination!
